@@ -909,6 +909,7 @@ try {
     # $acrAIServiceTag = "$($deploymentResult.AzContainerRegistryName).azurecr.io/$acrNamespace/aiservice"
     # $acrKernelMemoryTag = "$($deploymentResult.AzContainerRegistryName).azurecr.io/$acrNamespace/kernelmemory"
     # $acrFrontAppTag = "$($deploymentResult.AzContainerRegistryName).azurecr.io/$acrNamespace/frontapp"
+   
 
     # 1. Login to Azure Container Registry
     az acr login --name $deploymentResult.AzContainerRegistryName

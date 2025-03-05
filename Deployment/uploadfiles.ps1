@@ -10,5 +10,5 @@
     # Call the function with the mandatory URL parameter
     Send-FilesToEndpoint -DataFolderPath "..\Data" -EndpointUrl "${EndpointUrl}/backend/Documents/ImportDocument"
 
-    Write-Host "Thanks for your patient, Files are uploaded successfully" -ForegroundColor Green
+    Write-Host "Thanks for your patience, Files are uploaded successfully" -ForegroundColor Green
     Write-Host "You can start with this url - ${EndpointUrl}" -ForegroundColor Green
